@@ -17,6 +17,6 @@ export default defineConfig(({ mode }) => ({
     },
   },
     preview: {
-    allowedHosts: '', // <-- minimal line added correctly
+    allowedHosts: 'all', // <-- minimal line added correctly
   },
 }));
